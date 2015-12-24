@@ -53,5 +53,12 @@
                 }
             }
         }
-    ]
+    ],
+    "extra": {
+        "installer-paths": {
+            "./public/kirby": ["getkirby/kirby"],
+            "./public/kirby/toolkit": ["getkirby/toolkit"],
+            "./public/panel": ["getkirby/panel"]
+        }
+    }
 }
