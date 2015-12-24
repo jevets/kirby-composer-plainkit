@@ -1,7 +1,7 @@
 {
-    "name": "jevets/kirby-composerkit",
+    "name": "jevets/kirby-composer-plainkit",
     "type": "project",
-    "description": "A starter kit for Kirby CMS using composer",
+    "description": "Kirby CMS Plain Kit with Composer Support",
     "version": "0.0.1",
     "homepage": "https://github.com/jevets/kirby-composerkit",
     "authors": [
