@@ -1,0 +1,6 @@
+title: Page
+pages: default
+files: true
+fields:
+  title: title
+  text: text
