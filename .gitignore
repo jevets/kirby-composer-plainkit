@@ -8,5 +8,5 @@ site/cache/*
 site/config/config.*.php
 
 public/assets/avatars/*
-# public/content/*
+public/content/*
 public/thumbs/*
