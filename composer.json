@@ -11,6 +11,7 @@
         }
     ],
     "require": {
+        "php": ">= 5.4.0",
         "mnsami/composer-custom-directory-installer": "1.0.*",
         "getkirby/kirby": "2.2.3",
         "getkirby/toolkit": "2.2.3",
