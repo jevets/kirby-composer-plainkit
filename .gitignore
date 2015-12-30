@@ -10,3 +10,7 @@ site/config/config.*.php
 public/assets/avatars/*
 public/content/*
 public/thumbs/*
+
+# Managed by Composer
+public/kirby
+public/panel
