@@ -77,7 +77,7 @@ If you've changed the directory structure, make sure to update the `serve` scrip
 
 ### 2016-08-03
 
-- Bump kirby, toolkit, and panel to version 2.3.1
+- Bump kirby, toolkit, and panel to version 2.3.2
 
 
 [plainkit]: https://github.com/getkirby/plainkit
