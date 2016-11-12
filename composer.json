@@ -2,8 +2,8 @@
     "name": "jevets/kirby-composer-plainkit",
     "type": "project",
     "description": "Kirby CMS Plain Kit with Composer Support",
-    "version": "0.0.2",
-    "homepage": "https://github.com/jevets/kirby-composerkit",
+    "version": "0.0.3",
+    "homepage": "https://github.com/jevets/kirby-composer-plainkit",
     "authors": [
         {
             "name": "Steve Jamesson",
@@ -11,50 +11,12 @@
         }
     ],
     "require": {
-        "php": ">= 5.4.0",
-        "mnsami/composer-custom-directory-installer": "1.0.*",
-        "getkirby/kirby": "2.3.2",
-        "getkirby/toolkit": "2.3.2",
-        "getkirby/panel": "2.3.2"
+        "php": ">= 5.6.x",
+        "mnsami/composer-custom-directory-installer": "1.1.*",
+        "getkirby/kirby": "2.4.0",
+        "getkirby/toolkit": "2.4.0",
+        "getkirby/panel": "2.4.0"
     },
-    "repositories": [
-        {
-            "type": "package",
-            "package": {
-                "name": "getkirby/kirby",
-                "version": "2.3.2",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/getkirby/kirby.git",
-                    "reference": "2.3.2"
-                }
-            }
-        },
-        {
-            "type": "package",
-            "package": {
-                "name": "getkirby/toolkit",
-                "version": "2.3.2",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/getkirby/toolkit.git",
-                    "reference": "2.3.2"
-                }
-            }
-        },
-        {
-            "type": "package",
-            "package": {
-                "name": "getkirby/panel",
-                "version": "2.3.2",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/getkirby/panel.git",
-                    "reference": "2.3.2"
-                }
-            }
-        }
-    ],
     "extra": {
         "installer-paths": {
             "./public/kirby": ["getkirby/kirby"],
